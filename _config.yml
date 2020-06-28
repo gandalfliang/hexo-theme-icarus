@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 3.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: cyberpunk
 # Path or URL to the website's logo
 logo: /img/gandalf_me.png
 # Page metadata configurations
@@ -118,9 +118,14 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    type: disqusjs
     # Disqus shortname
     shortname: 'gandalf-blog'
+    api_key: 5X51fCd1jYDfvLIhUCC8TWYGMAPPRR7xA4mlRHcpXXRBByYYrqy0PO80PDUQGneE
+    api: https://disqus.skk.moe/disqus/
+    admin: gandalf
+    admin_label: Admin
+    nesting: 4
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
